@@ -37,7 +37,7 @@ const OutputAI = (props) => {
         },
         {
           headers: {
-            Authorization: `Bearer `,
+            Authorization: `Bearer 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`,
             "Content-Type": "application/json",
           },
         }
