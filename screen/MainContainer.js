@@ -12,6 +12,8 @@ import MenuScreen from './MenuScreen';
 import CameraAi from './CameraAi';
 import OutputAI from './constants/OutputAI';
 import OutputAICMR from './constants/OutputAICMR';
+import CameraPicAi from './CameraPicAi';
+import OutputAiPic from './constants/OutputAiPic';
 
 const homeName = "Home";
 const AiName = "AI Mode";
@@ -61,6 +63,16 @@ const MainContainer = () => {
         <Stack.Screen
           name="OutputAICMR"
           component={OutputAICMR}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="CameraPicAi"
+          component={CameraPicAi}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="OutputAiPic"
+          component={OutputAiPic}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
