@@ -103,7 +103,7 @@ const CameraAi = () => {
                     mode="small"
                     color='#fff'
                 />
-                <Appbar.Content title="EatForHealth AI FormFood" color='#fff' />
+                <Appbar.Content title="KidsCusineHub AI Camera" color='#fff' />
             </Appbar.Header>
             {!imageUri ?
                 <Camera

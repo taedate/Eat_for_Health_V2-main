@@ -19,7 +19,7 @@ const OutputAICMR = ({ route }) => {
                     mode="small"
                     color="#fff"
                 />
-                <Appbar.Content title="EatForHealth AI FormFood" color="#fff" />
+                <Appbar.Content title="KidsCusineHub AI Camera" color="#fff" />
                 <Icon name="cutlery" size={24} color="#fff" style={{ marginRight: 5 }} />
             </Appbar.Header>
             <ScrollView style={{ height:"100%", padding:20}}>

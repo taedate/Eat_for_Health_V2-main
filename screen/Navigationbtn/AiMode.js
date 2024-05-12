@@ -15,17 +15,17 @@ const AiMode = ({navigation}) => {
     <View style={styles.menu}>
       <View style={styles.logo}>
         <Image source={require('../../img/childrenEat.jpeg')} style={{ width:60, height: 50, borderRadius:20,marginRight: 10,marginTop: 40,}}/>
-        <Text style={{ fontSize:30 ,fontWeight:'bold', alignItems:'center', justifyContent:'center',marginTop: 40, color:'#fff'}}>EatForHeath</Text>
+        <Text style={{ fontSize:30 ,fontWeight:'bold', alignItems:'center', justifyContent:'center',marginTop: 40, color:'#fff'}}>KidsCusineHub</Text>
       </View>
       <View style={{ flexDirection:'column', justifyContent:'space-around' ,height:'100%', padding:20, flex:1}}>
         <Pressable onPress={Ai}>
-            <Image source={require('../../img/childrenEat.jpeg')} style={{ width:'100%', height: 200, borderRadius:20}}/>
+            <Image source={require('../../img/1.png')} style={{ width:'100%', height: 200, borderRadius:20}}/>
         </Pressable>
         <Pressable onPress={CameraAi}>
-            <Image source={require('../../img/Ai.jpg')} style={{ width:'100%', height: 200, borderRadius:20}}/>
+            <Image source={require('../../img/2.png')} style={{ width:'100%', height: 200, borderRadius:20}}/>
         </Pressable>
         <Pressable onPress={CameraPicAi}>
-            <Image source={require('../../img/childrenEat.jpeg')} style={{ width:'100%', height:200, borderRadius:20}}/>
+            <Image source={require('../../img/3.png')} style={{ width:'100%', height:200, borderRadius:20}}/>
         </Pressable>
       </View>
     </View>

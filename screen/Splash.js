@@ -1,37 +1,48 @@
-import { View, Image} from 'react-native'
+import { View, ImageBackground, StyleSheet, TouchableOpacity, Text} from 'react-native'
 import React from 'react'
-import { Button } from '@rneui/themed';
-
 
 const Splash = ({navigation}) => {
-  const onPress = () => {
+  const Main = () => {
     navigation.navigate('Main')
   }
+
   return (
-    <View style={{ height: "100%", alignItems:"center"}}>
-      <View style={{ flex: 0.95, justifyContent:"center", alignItems:"center"}} >
-        <Image source={require('../img/logo.png')} style={{ width:170 , height: 100, borderRadius:20}}/>
-        <Button
-            buttonStyle={{
-              backgroundColor: 'rgba(111, 202, 186, 1)',
-              borderRadius: 5,
-            }}
-            titleStyle={{ fontWeight: 'bold', fontSize: 23 }}
-              containerStyle={{
-                marginHorizontal: 50,
-                height: 50,
-                width: 200,
-                marginVertical: 10,
-              }}
-            loading={false}
-            loadingProps={{ size: 'small', color: 'white' }}
-            title="Get Start"
-            onPress={onPress}
-        />
-      </View>
+    <View style={styles.container}>
+      <ImageBackground
+        source={require("../img/Splash.png")}
+        style={styles.image}
+      >
+        <TouchableOpacity style={styles.button} onPress={(Main)}>
+          <Text style={styles.buttonText}>Enter to KidsCusineHub</Text>
+        </TouchableOpacity>
+      </ImageBackground>
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+
+  container: {
+    flex: 1,
+  },
+  image: {
+    flex: 1,
+    resizeMode: 'cover',
+    justifyContent: 'center',
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#e0b2c6',
+    padding: 10,
+    borderRadius: 10,
+    margin: 20,
+  },
+  buttonText: {
+    color: 'black',
+    fontSize: 20,
+  },
+  
+})
 
 
 export default Splash

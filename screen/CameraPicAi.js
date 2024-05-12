@@ -86,7 +86,7 @@ const CameraPicAi = () => {
                     mode="small"
                     color='#fff'
                 />
-                <Appbar.Content title="EatForHealth AI FormFood" color='#fff' />
+                <Appbar.Content title="KidsCusineHub AI UpLoad Image" color='#fff' />
             </Appbar.Header>
         <View style={styles.container}>
             <View style={styles.imgBox}>

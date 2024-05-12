@@ -64,7 +64,7 @@ const OutputAI = (props) => {
           mode="small"
           color="#fff"
         />
-        <Appbar.Content title="EatForHealth AI FormFood" color="#fff" /><Icon name="cutlery" size={24} color="#fff" style={{ marginRight: 5 }} />
+        <Appbar.Content title="KidsCusineHub AI FormFood" color="#fff" /><Icon name="cutlery" size={24} color="#fff" style={{ marginRight: 5 }} />
       </Appbar.Header>
       <View style={styles.container}>
         {loading && (
@@ -87,7 +87,7 @@ const OutputAI = (props) => {
 };
 const styles = StyleSheet.create({
   Appbar: {
-    padding: 10,
+    padding: 0,
     backgroundColor: "#f48fb1",
   },
   container: {
@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   Card:{
-    padding:10,
+    flex:1,
   },
   Content: {
     fontSize: 16,

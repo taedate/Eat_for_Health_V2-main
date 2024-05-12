@@ -7,8 +7,8 @@ const Home = ({navigation}) => {
   return (
     <View style={styles.menu}>
       <View style={styles.logo}>
-        <Image source={require('../../img/childrenEat.jpeg')} style={{ width:60, height: 50, borderRadius:20,marginRight: 10,marginTop: 40,}}/>
-        <Text style={{ fontSize:30 ,fontWeight:'bold', alignItems:'center', justifyContent:'center',marginTop: 40, color:'#fff'}}>EatForHeath</Text>
+        <Image source={require('../../img/logoMain.png')} style={{ width:60, height: 50, borderRadius:20,marginRight: 10,marginTop: 40,}}/>
+        <Text style={{ fontSize:30 ,fontWeight:'bold', alignItems:'center', justifyContent:'center',marginTop: 40, color:'#fff'}}>KidsCusineHub</Text>
       </View>
       <ScrollView
         showsVerticalScrollIndicator={false} 
