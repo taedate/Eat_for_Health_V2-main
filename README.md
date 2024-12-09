@@ -15,3 +15,15 @@
 - **Font-End**: 
   - React-Native (Java-Script)
   
+## ตัวอย่างหน้าแอพพริเคชั่น
+### หน้าหลักแอพพลิเคชั่น
+![Home Page](/assetsReadme/Home.jpg)
+
+### ตัวอย่างรายการอาหาร
+![munu food Page](/assetsReadme/MenuFood.jpg)
+
+### หน้าแสดงคำตอบวิเคราะห์ข้อมูล
+![Answer Page](/assetsReadme/Answer.jpg)
+
+### หน้าตัวอย่างการใช้งานถ่ายรูปภาพให้ Chat-gpt วิเคราะห์โภชนาการ
+![Image Page](/assetsReadme/Image.jpg)
