@@ -20,7 +20,7 @@
 ![Home Page](/assetsReadme/Home.jpg)
 
 ### ตัวอย่างรายการอาหาร
-![munu food Page](/assetsReadme/MenuFood.jpg)
+![munu food Page](/assetsReadme/Menufood.jpg)
 
 ### หน้าแสดงคำตอบวิเคราะห์ข้อมูล
 ![Answer Page](/assetsReadme/Answer.jpg)
